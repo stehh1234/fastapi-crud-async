@@ -4,6 +4,7 @@ SQLAlchemy==1.4.41
 asyncpg==0.27.0
 fastapi==0.87.0
 uvicorn==0.20.0
+anyio==3.7.1  # starlette 0.21 TestClient needs anyio 3 (anyio 4 removed start_blocking_portal)
 
 # dev
 pytest==7.2.0
